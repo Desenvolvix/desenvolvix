@@ -1,0 +1,230 @@
+/* Import Font */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=Inter:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Archivo", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.logo {
+  width: 5.5rem;
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+.descriptionsHeader {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  justify-content: space-between;
+}
+.buttonOrcament {
+  width: 11rem;
+  background-color: #3f3d56;
+  color: #f9d726;
+  margin-right: 5vw;
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.my-element {
+  width: 12rem;
+  height: 14rem;
+  clip-path: circle(70% at 80% 30%);
+  background-color: #f9d726;
+  margin-top: -8rem;
+  z-index: -1;
+}
+.textsYellow {
+  color: #f9d726;
+}
+
+/* Section One */
+
+.mainSectionOne {
+  margin-left: 2rem;
+}
+.mainSectionOne h3 {
+  font-size: 2rem;
+}
+.yourSite {
+  font-weight: 600;
+  /* font-family: 'Archivo', sans-serif; */
+  font-size: 5.5rem;
+}
+.buttonOrcamentSectionOne {
+  margin-top: 1rem;
+  width: 15rem;
+  /* background-color: #3F3D56; */
+  background-color: #f9d726;
+  color: #3f3d56;
+  margin-right: 5vw;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.section-two {
+  height: 100%;
+}
+.spacingFuncoes {
+  gap: 5rem;
+  /* margin-top: 20%; */
+}
+.titleFuncoes {
+  font-weight: 600;
+  color: #f9d726;
+}
+.paragraphFuncoes {
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+
+.containerFormContact {
+  border: 3px solid #3f3d56;
+  padding: 4rem;
+  border-radius: 20%;
+}
+.inputFormContact {
+  border: 1.5px solid #3f3d56;
+  padding: 5px;
+  border-radius: 20px;
+}
+.submitFormContact {
+  background-color: #f9d726;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 6px;
+  width: 100%;
+  border: none;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titlePortfolio {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem !important;
+
+  transition: 0.6s;
+  letter-spacing: 5px;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+.titlePortfolio:hover {
+  letter-spacing: 10px;
+}
+
+.mySites {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* height: 80vh; */
+  /* margin-bottom: 20vh; */
+}
+.paragraph-img {
+  margin-bottom: 5px;
+  font-size: 17px;
+  /* display: none; */
+  transition: opacity 0.3s ease-in;
+}
+.text {
+  min-height: 200px;
+  position: relative;
+}
+.buttons {
+  /* display: inline-block; */
+  /* padding: 4px; */
+  margin: 10px;
+  background-color: transparent;
+  /* position: absolute; */
+  /* border: 2px solid #212992; */
+  border-radius: 5px;
+  width: 295px;
+  height: 165px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  /* color: #00d7c3; */
+  /* border: 0.1px solid #dadada; */
+}
+.buttons:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 0 #f9d726 inset, 0 0 20px 2px #f9d726;
+  border: 0px solid #bbbbbb;
+}
+@keyframes neon-glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#imagem {
+  width: 300px;
+}
+.random-image {
+  width: 320px;
+  position: relative;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.random-image.show {
+  opacity: 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#whatsapp-button {
+  position: fixed;
+  bottom: 4rem;
+  right: 20px;
+}
+
+#whatsapp-button a {
+  display: block;
+}
+
+.iconWhatsapp {
+  width: 3.5rem;
+}
