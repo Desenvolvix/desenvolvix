@@ -327,6 +327,9 @@ h6 {
   background-clip: text;
   color: transparent;
 }
+.responviseMargin {
+  margin-left: 1rem;
+}
 .whatsapp-icon {
   background-size: cover;
   background-position: center;
@@ -356,10 +359,66 @@ h6 {
 
 @media (max-width: 1170px) {
   .infosBeaulty {
-    max-width: none;
     margin-right: 0;
   }
+
   .spacingFuncoes {
     flex-wrap: wrap;
+  }
+  .responviseMargin {
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 1059px) {
+  .descriptionSite {
+    width: 35%;
+  }
+}
+@media (max-width: 831px) {
+  .infosBeaulty {
+    max-width: 35rem;
+    /* margin-right: 1rem; */
+  }
+}
+@media (max-width: 800px) {
+  .responsiveSectionOne {
+    flex-wrap: wrap;
+  }
+  .descriptionSite {
+    width: 40%;
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 600px) {
+  .infosBeaulty {
+    margin-left: 1rem;
+  }
+
+  .logo2 {
+    width: 4rem;
+    margin: 1rem 0rem 0rem 1rem;
+  }
+  .gradient-heading {
+    font-size: 1.2rem;
+  }
+  .svgResponsive {
+    width: 80%;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .fontSize_footer {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 450px) {
+  .containerFormContact {
+    border: 2.5px solid #3f3d56;
+    padding: 3rem;
+  }
+  .responsiveFooter {
+    flex-direction: column;
   }
 }

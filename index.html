@@ -43,7 +43,9 @@
     </header>
     <!-- Section One -->
     <section>
-      <div class="d-flex justify-content-evenly align-items-center">
+      <div
+        class="d-flex justify-content-evenly align-items-center responsiveSectionOne"
+      >
         <main class="mainSectionOne">
           <h1 class="textsYellow yourSite">O Seu Site</h1>
           <h3>do jeito que você quer!</h3>
@@ -54,6 +56,7 @@
           </a>
         </main>
         <svg
+          class="svgResponsive"
           width="825"
           height="615"
           viewBox="0 0 825 615"
@@ -88,24 +91,28 @@
     <!-- Section Two -->
     <section class="section-two d-flex align-items-center">
       <div class="d-flex justify-content-center w-100">
-        <article class="d-flex spacingFuncoes">
-          <div style="margin-left: 3rem">
+        <article class="d-flex justify-content-center spacingFuncoes">
+          <div class="infosBeaulty responviseMargin">
             <h2 class="titleFuncoes">Design Responsivo e Moderno</h2>
             <p class="paragraphFuncoes">
               Nossos sites têm um design moderno e se adaptam a qualquer
               dispositivo, proporcionando uma experiência envolvente em
               smartphones, tablets e desktops.
             </p>
-            <img src="./images/undraw_Reminder_re_fe15 1.svg" alt="" />
+            <div>
+              <img src="./images/undraw_Reminder_re_fe15 1.svg" alt="" />
+            </div>
           </div>
-          <div>
+          <div class="infosBeaulty">
             <h2 class="titleFuncoes">Otimização de SEO e Desempenho</h2>
             <p class="paragraphFuncoes">
               Destaque-se nos resultados de busca com nossas técnicas avançadas
               de otimização de SEO. Garantimos que seu site carregue rapidamente
               e ofereça uma navegação suave para os visitantes.
             </p>
-            <img src="./images/Vector.svg" alt="" />
+            <div>
+              <img src="./images/Vector.svg" alt="" />
+            </div>
           </div>
           <div class="infosBeaulty">
             <h2 class="titleFuncoes">
@@ -117,7 +124,9 @@
               contínuo, garantindo que seu site esteja sempre funcionando e
               evoluindo conforme sua empresa cresce.
             </p>
-            <img src="./images/undraw_Reminder_re_fe15 1.svg" alt="" />
+            <div>
+              <img src="./images/undraw_Reminder_re_fe15 1.svg" alt="" />
+            </div>
           </div>
         </article>
       </div>
@@ -225,16 +234,15 @@
       </div>
     </div>
     <footer class="footer">
-      <div class="d-flex align-items-center h-100">
+      <div class="d-flex align-items-center h-100 responsiveFooter">
         <img class="logo2 me-2" src="./images/logoVector.png" alt="logo" />
         <h2 class="gradient-heading">Desenvolvix</h2>
       </div>
-
       <div
         class="d-flex align-items-center justify-content-center"
         style="height: 2rem; background-color: #f9d726"
       >
-        <p class="mt-3">
+        <p class="mt-3 fontSize_footer">
           © 2023 | Criação de Sites - Desenvolvix. Todos os direitos reservados.
         </p>
       </div>
